@@ -41,12 +41,12 @@ To run this project, you need:
 ### Step 1: Setting Up Kafka Cluster
 
 1. Install Confluent Kafka and set up a Kafka cluster.
-2. Create a topic in Kafka (e.g., `retail_data_topic`).
+2. Create a topic in Kafka (e.g., `retail-data`).
 
 ### Step 2: Configure the Producer and Consumer
 
 1. Update the **topic name** and **Kafka server configurations** in `producer.py` and `consumer.py`.
-2. Ensure the dataset is placed in the `dataset/` folder and its path is correctly referenced in `producer.py`.
+2. Ensure the path to the dataset file (e.g., `/retail_data.csv`) is correctly referenced in `producer.py`.
 
 ### Step 3: Run the Producer
 
